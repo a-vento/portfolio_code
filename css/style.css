@@ -10,7 +10,6 @@
         color: white;
         padding-top: 20%;
         margin: auto;
-        width: 50%;
         -webkit-text-stroke-width: 1px;
         font-family: 'Questrial';
         text-align: center;
@@ -232,17 +231,19 @@
         position: relative;
         top: 0;
         margin-top: 20px;
+        color: white;
     }
     h3{
         font-family: 'Questrial';
         font-size: 15px;
+        color: white;
     }
     h4{
         font-family: 'Questrial';
         position: relative;
         border: solid 1px white;
         padding: 40px;
-        font-size: 20px; /* Adjust font size as needed */
+        font-size: 20px; 
         background-color: black;
         transition: background-color 0.6s ease;
         margin-bottom: 20px; /* Adjust margin-bottom as needed */
@@ -253,8 +254,18 @@
     } */
     h5{
         font-family: 'Questrial';
+        padding: 40px;
+        font-size: 20px; 
+    }
+    h6{
+        font-family: 'Questrial';
         font-size: 20px;
-        color: red;
+        color: blanchedalmond;
+        border: blanchedalmond dashed 5px;
+        position: relative;
+        background-clip: padding-box;
+        padding: 40px;
+        margin: 5%;
     }
     p{
         font-family: 'Questrial';
@@ -340,6 +351,37 @@
         line-height: 32px;
         color: hsla(0, 0%, 100%, 0.5);
         font-size: 16px;
+    }
+    .tamarindHomePage{
+        background-color: #312A17;
+    }
+    .tamarind-container{
+        margin: 20%;
+        margin-top: 30%;
+    }
+    .tamarind-desc,
+    .concept-card{
+        text-align: center;
+        color: #D5C89F;
+    }
+    #problem > div > div > img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+
+    }
+    .tamarind-card {
+        position: relative;
+        border: 2px solid transparent;
+        background: #D5C89F;
+        background-clip: padding-box;
+        padding: 40px;
+        margin: 5%;
+    }
+    .t-card-title{
+        color: #312A17;
+        font-size: 180%;
     }
       
     @media screen and (min-width: 992px) {
