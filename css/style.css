@@ -266,6 +266,7 @@
         background-clip: padding-box;
         padding: 40px;
         margin: 5%;
+        text-align: center;
     }
     p{
         font-family: 'Questrial';
@@ -443,6 +444,8 @@
     .fitbit-insights ul,
     .fitbit-insights {
         line-height: 1.5; 
+        list-style-type: none;
+
     }
     #problem > div > div > p:nth-child(2),
     #problem > div > div > p:nth-child(4){
@@ -561,7 +564,8 @@
         .timeline-component{
             margin: 0px 20px 20px 20px;
         }
-        .tamarind-container {
-            margin: 20%;
+        .tamarind-container,
+        .fitbit-container {
+            margin: 15%;
         }
     }
