@@ -355,7 +355,8 @@
     .tamarindHomePage{
         background-color: #312A17;
     }
-    .tamarind-container{
+    .tamarind-container,
+    .fitbit-container{
         margin: 20%;
         margin-top: 30%;
     }
@@ -384,6 +385,59 @@
         font-size: 180%;
     }
       
+    .fitbitHomePage{
+        background-color: #c1e6f4;
+    }
+    .fitbit-container{
+        margin: 20%;
+        margin-top: 30%;
+        color: rgb(2, 6, 36);
+    }
+    #fitbit > div > div > div > h1{
+        color: #225186;
+    }
+    .fitbit-des,
+    .fitbit-header{
+        text-align: center;
+        color: #225186;
+    }
+    .fitbit-concept-card{
+        text-align: center;
+        color: #225186;
+    }
+    .fitbit-card {
+        position: relative;
+        border: 2px solid transparent;
+        background: #225186;
+        background-clip: padding-box;
+        padding: 40px;
+        margin: 5%;
+        color: white   ;
+    }
+    .fitbit-t-card-title{
+        color: white;
+        font-size: 180%;
+    }
+    .fitbit-info,
+    .fitbit-insights {
+        font-family: 'Questrial';
+        font-size: 20px;
+        color: #225186;
+        border: #225186 dashed 5px;
+        position: relative;
+        background-clip: padding-box;
+        padding: 40px;
+        margin: 5%;
+    }
+    .fitbit-insights {
+        color: #c86b01;
+        border: #c86b01 dashed 5px;
+    }
+    #problem > div > div > h5:nth-child(2),
+    #problem > div > div > h5:nth-child(4){
+        text-align: center;
+    }
+
     @media screen and (min-width: 992px) {
         #toggle {
             display: none; 
