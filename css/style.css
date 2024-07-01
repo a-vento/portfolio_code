@@ -420,18 +420,22 @@
     }
     .fitbit-info,
     .fitbit-insights {
+        background: rgb(117, 194, 245);
         font-family: 'Questrial';
         font-size: 20px;
         color: #225186;
-        border: #225186 dashed 5px;
+        border: #225186 solid 5px;
         position: relative;
         background-clip: padding-box;
         padding: 40px;
         margin: 5%;
+        border-radius: 25px;
+        font-size: 90%;
     }
     .fitbit-insights {
-        color: #c86b01;
-        border: #c86b01 dashed 5px;
+        background: white;
+        color: #ce740e;
+        border: #f69526 solid 5px;
     }
     #problem > div > div > h5:nth-child(2),
     #problem > div > div > h5:nth-child(4){
@@ -449,7 +453,7 @@
             left: 0;
             right: 0;
             background-color: black; 
-            padding: 10px; 
+            padding: 5px; 
             border-radius: 0; 
             z-index: 998; 
             color: white; 
@@ -468,14 +472,14 @@
             color: white;
         }
         .about {
-            margin-top: 320px;
+            margin-top: 220px;
             padding-top: 10px;
             padding-bottom: 100px; 
             color: white;
         }
     
         #about-text{
-            font-size: 30px;
+            font-size: 20px;
             padding-top: 5%; 
         }
         h2{
@@ -535,6 +539,10 @@
         }
         #projects > div > h1 {
             padding-top: 10%; 
+        }
+        .fitbit-info,
+        .fitbit-insights {
+            font-size: 180%;
         }
 
     }
