@@ -357,8 +357,7 @@
     }
     .tamarind-container,
     .fitbit-container{
-        margin: 20%;
-        margin-top: 30%;
+        margin: 2%;
     }
     .tamarind-desc,
     .concept-card{
@@ -543,6 +542,11 @@
         .fitbit-info,
         .fitbit-insights {
             font-size: 180%;
+        }
+        .tamarind-container,
+        .fitbit-container{
+            margin: 20%;
+            margin-top: 30%;
         }
 
     }
