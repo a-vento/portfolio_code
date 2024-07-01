@@ -436,8 +436,12 @@
         color: #ce740e;
         border: #f69526 solid 5px;
     }
-    #problem > div > div > h5:nth-child(2),
-    #problem > div > div > h5:nth-child(4){
+    .fitbit-insights ul,
+    .fitbit-insights {
+        line-height: 1.5; 
+    }
+    #problem > div > div > p:nth-child(2),
+    #problem > div > div > p:nth-child(4){
         text-align: center;
     }
 
@@ -541,7 +545,7 @@
         }
         .fitbit-info,
         .fitbit-insights {
-            font-size: 180%;
+            font-size: 100%;
         }
         .tamarind-container,
         .fitbit-container{
