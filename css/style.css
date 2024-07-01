@@ -561,4 +561,7 @@
         .timeline-component{
             margin: 0px 20px 20px 20px;
         }
+        .tamarind-container {
+            margin: 20%;
+        }
     }
