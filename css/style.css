@@ -398,6 +398,12 @@
         text-align: center;
         color: #225186;
     }
+    #problem > div > div > p:nth-child(2),
+    #problem > div > div > p:nth-child(4){
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
     .fitbit-concept-card{
         text-align: center;
         color: #225186;
