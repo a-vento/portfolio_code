@@ -398,6 +398,9 @@
     .fitbit-header{
         text-align: center;
         color: #225186;
+        font-family: 'Questrial';
+        padding: 0px;
+        font-size: 20px;
     }
     #problem > div > div > p:nth-child(2),
     #problem > div > div > p:nth-child(4){
@@ -450,6 +453,9 @@
     #problem > div > div > p:nth-child(2),
     #problem > div > div > p:nth-child(4){
         text-align: center;
+        font-family: 'Questrial';
+        padding: 0px;
+        font-size: 20px;
     }
 
     @media screen and (min-width: 992px) {
