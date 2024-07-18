@@ -6,11 +6,10 @@
         width: 100%;
     }
     .intro {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         color: white;
-        padding-top: 20%;
+        padding-top: 30%;
         margin-left: 10%;
-        width: 50%;
         -webkit-text-stroke-width: 1px;
         font-family: 'Questrial';
         text-align: left;
@@ -118,60 +117,7 @@
         color: red;
         text-decoration: underline;
     }
-    @keyframes cursor {
-        to {
-            border-left: 2px solid white;
-        }
-    }
 
-    @keyframes words {
-        0%,
-        20% {
-            content: "DESIGNER";
-        }
-        21%,
-        40% {
-            content: "PROGRAMMER";
-        }
-        41%,
-        60% {
-            content: "PRODUCT MANAGER";
-        }
-        61%,
-        80% {
-            content: "RESEARCHER";
-        }
-        81%,
-        100% {
-            content: "CREATIVE";
-        }
-    }
-
-    @keyframes typing {
-        10%,
-        15%,
-        30%,
-        35%,
-        50%,
-        55%,
-        70%,
-        75%,
-        90%,
-        95% {
-            width: 0;
-        }
-        5%,
-        20%,
-        25%,
-        40%,
-        45%,
-        60%,
-        65%,
-        80%,
-        85% {
-            width: calc(100% + 8px);
-        }
-    }
 
     /* About Styling */
     .about {
@@ -224,7 +170,7 @@
         transition: background-color 0.6s ease;
         margin-bottom: 20px; 
         top: 0; 
-        margin: 0px 20px 20px 20px;
+        margin: 0px 25px 25px 25px;
     }
     h5{
         font-family: 'Questrial';
@@ -256,7 +202,7 @@
     }
 
     .timeline-content {
-        box-shadow: 5px 5px 10px white, -5px -5px 10px white;
+        box-shadow: 5px 5px 10px white;
         color: white;
         padding: 1.75rem;
         transition: 0.4s ease;
@@ -264,7 +210,7 @@
     }
 
     .timeline-component {
-         margin: 0px 20px 20px 20px;
+         margin: 0px 25px 25px 25px;
     }
 
     /* Projects Styling */
@@ -334,7 +280,7 @@
         font-size: 4.5rem;
         color: white;
         padding-top: 20%;
-        margin-bottom: 10%;
+        margin-bottom: 0%;
         -webkit-text-stroke-width: 1px;
         font-family: 'Questrial';
         text-align: center;
@@ -485,6 +431,16 @@
             padding-bottom: 100px; 
             color: white;
         }
+        .intro {
+            font-size: 2.5rem;
+            color: white;
+            padding-top: 20%;
+            margin-left: 10%;
+            width: 50%;
+            -webkit-text-stroke-width: 1px;
+            font-family: 'Questrial';
+            text-align: left;
+        }
     
         #about-text{
             font-size: 20px;
@@ -525,6 +481,9 @@
             width: 3px;
             height: 100%;
         }
+        .timeline-content {
+            box-shadow: 5px 5px 10px white, -5px -5px 10px white;
+        }
         .main-box {
             opacity: 0;
         }
@@ -553,7 +512,7 @@
             font-size: 100%;
         }
         .timeline-component{
-            margin: 0px 20px 20px 20px;
+            margin: 0px 25px 25px 25px;
         }
         .tamarind-container,
         .fitbit-container {
