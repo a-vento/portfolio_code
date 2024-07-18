@@ -6,13 +6,14 @@
         width: 100%;
     }
     .intro {
-        font-size: 4.5rem;
+        font-size: 2.5rem;
         color: white;
         padding-top: 20%;
-        margin: auto;
+        margin-left: 10%;
+        width: 50%;
         -webkit-text-stroke-width: 1px;
         font-family: 'Questrial';
-        text-align: center;
+        text-align: left;
     }
 
     /* Nav */
@@ -117,36 +118,6 @@
         color: red;
         text-decoration: underline;
     }
-
-    .text-animation {
-        font-size: 34px;
-        font-weight: 600;
-        min-width: 280px;
-        text-align: center;
-        padding-bottom: 30%;
-    }
-
-    .text-animation span {
-        position: relative;
-    }
-
-    .text-animation span::before {
-        content: "Web Developer";
-        color: white;
-        animation: words 20s infinite;
-    }
-
-    .text-animation span::after {
-        content: "";
-        background-color: black;
-        position: absolute;
-        width: calc(100% + 8px);
-        height: 100%;
-        border-left: 3px solid black;
-        right: -8px;
-        animation: cursor 0.4s infinite, typing 20s steps(14) infinite;
-    }
-
     @keyframes cursor {
         to {
             border-left: 2px solid white;
@@ -224,6 +195,9 @@
         text-align: center;
         color: white;
     }
+    .red-text {
+        color: red;
+    }
     h2{
         font-family: 'Questrial';
         grid-column: 2;
@@ -244,11 +218,11 @@
         font-family: 'Questrial';
         position: relative;
         border: solid 1px white;
-        padding: 40px;
+        padding: 25px;
         font-size: 20px; 
         background-color: black;
         transition: background-color 0.6s ease;
-        margin-bottom: 20px; /* Adjust margin-bottom as needed */
+        margin-bottom: 20px; 
         top: 0; 
         margin: 0px 20px 20px 20px;
     }
@@ -355,6 +329,16 @@
     .tamarindHomePage{
         background-color: #312A17;
     }
+    .tam,
+    .mind{
+        font-size: 4.5rem;
+        color: white;
+        padding-top: 20%;
+        margin-bottom: 10%;
+        -webkit-text-stroke-width: 1px;
+        font-family: 'Questrial';
+        text-align: center;
+    }
     .tamarind-container,
     .fitbit-container{
         margin: 2%;
@@ -438,6 +422,7 @@
         margin: 5%;
         border-radius: 25px;
         font-size: 90%;
+        text-align: center;
     }
     .fitbit-insights {
         background: white;
