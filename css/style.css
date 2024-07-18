@@ -280,7 +280,7 @@
         font-size: 4.5rem;
         color: white;
         padding-top: 20%;
-        margin-bottom: 0%;
+        margin-bottom: 40%;
         -webkit-text-stroke-width: 1px;
         font-family: 'Questrial';
         text-align: center;
@@ -506,6 +506,11 @@
         }
         #projects > div > h1 {
             padding-top: 10%; 
+        }
+        .tam,
+        .mind{
+            margin-top: 0px;
+            margin-bottom: 10%;
         }
         .fitbit-info,
         .fitbit-insights {
