@@ -180,13 +180,15 @@
     h6{
         font-family: 'Questrial';
         font-size: 20px;
-        color: blanchedalmond;
-        border: blanchedalmond dashed 5px;
+        background-color: #474e2e;
+        color: white;
+        /* border: #d3c6af solid 5px; */
         position: relative;
         background-clip: padding-box;
         padding: 40px;
         margin: 5%;
         text-align: center;
+        border-radius: 25px;
     }
     p{
         font-family: 'Questrial';
