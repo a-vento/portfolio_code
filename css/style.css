@@ -456,7 +456,7 @@
             position: relative;
             top:100px;
             grid-row: 2;
-            max-height: 15%;
+            height: fit-content;
         }
         .g-container{
             display: grid;
